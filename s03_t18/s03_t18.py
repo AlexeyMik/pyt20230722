@@ -18,4 +18,5 @@ for i in range (1,len(A)) :
     if dist < distMin:
         distMin = dist
         indBest = i
-print("ближайшее ",A[indBest],"  имеет индекс ",indBest)
+print(A[indBest])
+#print("ближайшее ",A[indBest],"  имеет индекс ",indBest)
