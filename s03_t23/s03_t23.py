@@ -13,7 +13,7 @@ for i in range(0,n) :
     newN = int(input("введите следующее число: "))
     listA.append(newN)
 print(listA)
-# для заданного списка формируем список индексов тех элементов, которые удовлетворяю условию
+# для заданного списка формируем список индексов тех элементов, которые удовлетворяют условию
 listRes = [i for i in range(0,n) if listA[i-1] < listA[i] ]
 print(listRes)
 for i in range(0,len(listRes)) :
